@@ -3,13 +3,14 @@ import { CommonModule } from '@angular/common';
 import { TitreComponent } from './header/titre/titre.component';
 import { NavbarComponent } from './header/navbar/navbar.component';
 import { HeaderComponent } from './header/header.component';
+import { AppRoutingModule } from '../app-routing.module';
 
 
 
 @NgModule({
   declarations: [TitreComponent,NavbarComponent, HeaderComponent],
   imports: [
-    CommonModule
+    CommonModule,AppRoutingModule
   ],
   exports:[HeaderComponent]
 })

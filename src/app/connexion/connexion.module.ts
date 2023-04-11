@@ -7,7 +7,7 @@ import { HeaderModule } from '../header/header.module';
 
 @NgModule({
   declarations: [
-    ConnexionComponent
+    ConnexionComponent,
   ],
   imports: [
     CommonModule,HeaderModule
