@@ -1,17 +1,19 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { ReserverComponent } from './reserver/reserver.component';
+import { AppRoutingModule } from '../app-routing.module';
+import { ReservationComponent } from './reservation.component';
+
 
 
 
 
 @NgModule({
   declarations: [
-    ReserverComponent
+    ReservationComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,AppRoutingModule
   ],
-  exports: [ReserverComponent]
+  exports: [ReservationComponent]
 })
 export class ReservationModule { }

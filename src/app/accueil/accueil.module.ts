@@ -3,13 +3,14 @@ import { AccueilComponent } from './accueil.component';
 import { CommonModule } from '@angular/common';
 import { HeaderModule } from '../header/header.module';
 import { GalerieModule } from '../galerie/galerie.module';
-import { ReservationModule } from '../reservation/reservation.module';
+import { AppRoutingModule } from '../app-routing.module';
+
 
 
 
 @NgModule({
   declarations: [AccueilComponent],
-  imports: [CommonModule,HeaderModule,GalerieModule,ReservationModule],
+  imports: [CommonModule,HeaderModule,GalerieModule,AppRoutingModule],
   exports: [AccueilComponent]
 })
 export class AccueilModule { }
